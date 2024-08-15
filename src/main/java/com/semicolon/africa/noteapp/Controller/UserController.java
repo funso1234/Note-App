@@ -1,2 +1,4 @@
-package com.semicolon.africa.noteapp.Controller;public class UserController {
+package com.semicolon.africa.noteapp.Controller;
+
+public class UserController {
 }
