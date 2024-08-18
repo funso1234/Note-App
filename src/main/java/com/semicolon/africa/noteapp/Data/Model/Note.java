@@ -18,6 +18,7 @@ public class Note {
     private String id;
     private String title;
     private String content;
+    private String email;
     private LocalDateTime createdAt = LocalDateTime.now();
     private LocalDateTime updatedAt;
 

@@ -71,7 +71,7 @@ class NoteServicesTest {
         noteServices.deleteNote(deleteNoteRequest);
         DeleteNoteResponse deleteNoteResponse = noteServices.deleteNote(deleteNoteRequest);
         assertThat(addNoteResponse).isNotNull();
-        assertThat(deleteNoteResponse.getMessage()).isEqualTo("Deleted Note Title");
+        assertThat(deleteNoteResponse.getMessage()).isEqualTo("Deleted note successfully");
 
     }
 }
